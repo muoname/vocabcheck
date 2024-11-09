@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: vocabcheck
+      POSTGRES_PASSWORD: vocabcheck
+    ports:
+      -  '5432:5432'
